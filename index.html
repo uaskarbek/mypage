@@ -11,6 +11,7 @@
     <button id="logout">Logout</button>
     <script>
         document.getElementById("logout").addEventListener("click", function() {
+            document.getElementById("logout").innerText = "Success";
             Native.logout();
         }); 
     </script>
