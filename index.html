@@ -8,5 +8,11 @@
 </head>
 <body>
     <h1>My page</h1>
+    <button id="logout">Logout</button>
+    <script>
+        document.getElementById("logout").addEventListener("click", function() {
+            Native.logout();
+        }); 
+    </script>
 </body>
 </html>
