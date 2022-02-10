@@ -5,20 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Page</title>
+    <style>
+        .container {
+            max-width: 640px;
+            margin: 0 auto;
+        }
+    </style>
 </head>
 <body>
-    <h1>My page</h1>
-    <form action="" method="post" enctype="multipart/form-data">
-        <input type="file" name="file">
-        <button type="submit">Upload</button>
-    </form>
-    <button id="logout">Logout</button>
-    <a href="hamypage://settings" id="settings_button">Open settings</a>
-    <script>
-        document.getElementById("logout").addEventListener("click", function() {
-            document.getElementById("logout").innerText = "Success";
-            Native.logout();
-        }); 
-    </script>
+    <div class="container">
+        <h1>My Page</h1>
+        <hr/>
+        <h3>Settings</h3>
+        <a href="hamypage://settings">Open settings</a>
+    </div>
 </body>
 </html>
