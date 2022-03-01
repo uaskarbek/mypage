@@ -1,6 +1,6 @@
 ## Setup
 
 ```mermaid
-Graph TD;
+graph TD;
     A-->B;
 ```
